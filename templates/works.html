@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Trabajos</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav id='menu'>
+      <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+      <ul>
+        <li><a href='customers.html'>Clientes</a></li>
+        <li><a href='employees.html'>Técnicos</a></li>
+        <li><a href='works.html'>Trabajos</a></li>        
+      </ul>
+    </nav>
+
+    <br/>
+
+<h1>Gestión De trabajos</h1>
+
+<!-- Botón Agregar clientes -->
+<a onclick="add()" href="#" class="botonEditar botonAgregar">Agregar Trabajo</a> 
+
+<br/><br/>
+
+
+<!-- Tabla -->
+<table class="table">
+  <thead>
+  <tr>
+    <th>Técnico</th>
+    <th>Cliente</th>
+    <th>Fecha</th>
+    <th>Lugar</th>
+    <th>Telefono</th>
+    <th>Email</th>
+    <th>Acciones</th>
+</tr>
+</thead>
+<tbody>
+<!--EN SCRIPT-->
+</tbody>
+</table>
+
+
+
+<!-- Agregar/Editar clientes -->
+<div id="btnAgregar" class="modale" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <h2>Agregar Trabajo</h2>
+      <a onclick="closeForm()" href="#" class="btn-close closemodale" aria-hidden="true">&times;</a>
+    </div>
+
+    <div class="modal-body">
+      <input id="txtId" type="hidden" placeholder="ID" size="20" /><br />
+    <div class="search-input">
+      <div class="search-input-customers">
+        <input id="txtCustomer" type="search" placeholder="Cliente" class="customer-input">
+        <div class="box-customers">
+          <!--EN SCRIPT-->
+        </div>
+      </div>
+        <div class="search-input-employees">
+          <input id="txtEmployee" type="search" placeholder="Técnico" class="employee-input">
+          <div class="box-employees">
+        </div>
+          <!--EN SCRIPT-->
+        </div>  
+    </div>
+      <input id="txtDate" type="datetime-local" placeholder="Fecha" size="20" /><br />
+      <input id="txtAddress" type="text" placeholder="Lugar" size="20" /><br />
+    </div>
+    <div class="modal-footer">
+      <a onclick="save()" href="#" class="btn" id="btn_ingresar">Guardar</a>
+    </div>
+  </div>
+</div>
+
+
+<script src="scripts/works.js"></script>
+</body>
+</html>

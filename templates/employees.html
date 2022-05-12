@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Técnicos</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav id='menu'>
+      <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+      <ul>
+        <li><a href='customers.html'>Clientes</a></li>
+        <li><a href='employees.html'>Técnicos</a></li>
+        <li><a href='works.html'>Trabajos</a></li>       
+      </ul>
+    </nav>
+
+    <br/>
+
+<h1>Gestión De Técnicos</h1>
+
+<a onclick="add()" href="#" class="botonEditar botonAgregar">Agregar Técnico</a>
+
+<br/><br/>
+
+
+<!-- Tabla -->
+<table class="table">
+  <thead>
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Email</th>
+    <th>Telefono</th>
+    <th>Acciones</th>
+</tr>
+</thead>
+<tbody>
+<!-- ESTA PARTE ESTA EN SCRIPT -->
+</tbody>
+</table>
+
+
+
+<!-- Boton agregar clientes -->
+<div id="btnAgregar" class="modale" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <h2>Agregar Técnico</h2>
+      <a onclick="closeForm()" href="#" class="btn-close closemodale" aria-hidden="true">&times;</a>
+    </div>
+
+    
+    <div class="modal-body">
+      <input id="txtId" type="hidden" placeholder="ID" size="20" /><br />
+      <input id="txtFirstname" type="text" placeholder="Nombre" size="20" /><br />
+      <input id="txtLastname" type="text" placeholder="Apellido" size="20" /><br />
+      <input id="txtEmail" type="text" placeholder="Email" size="20" /><br />
+      <input id="txtPhone" type="text" placeholder="Telefono" size="20" /><br />
+    </div>
+    <div class="modal-footer">
+      <a onclick="save()" href="#" class="btn" id="btn_ingresar">Guardar</a>
+    </div>
+  </div>
+</div>
+
+
+<script src="scripts/employees.js"></script>
+</body>
+</html>

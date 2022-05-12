@@ -1,0 +1,2 @@
+-GUARDAR TRABAJO: INSERT INTO trabajos (date, place, customers_id, tecnico_id) VALUES ('2022-05-26', 'taller', '11', '4'); 
+-CARGAR TRABAJO: SELECT u.id, CONCAT(t.firstname, ' ', t.lastname) as 'tecnico', concat(c.firstname, ' ', c.lastname) as 'cliente', u.date, u.place, c.phone, c.email FROM trabajos u INNER JOIN tecnicos t ON u.tecnico_id = t.id inner join customers c ON u.customers_id = c.id;
