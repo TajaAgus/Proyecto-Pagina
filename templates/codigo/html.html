@@ -5,16 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css.css">
 </head>
-<body>
+<body id="cuerpo">
+    <h1>hola que tal</h1>
+    <div>
+        <input type="text" id="hola">
+        <div class="caja">
+        <span>hola</span>
+        </div>
+    </div>
+    
+
+
+
     <script>
-        let hola = "hola"
-        let chau = "chau"
-        function mostrar (hola, chau) {
-            console.log(hola + " hola")
-            console.log(chau + " chau")
+        let cuerpo = document.getElementById("cuerpo")
+        let input = document.getElementById("hola")
+        let box = document.querySelector("caja")
+        cuerpo.setAttribute("onclick", "test()")
+        function test () {
+            box.classList.add("active")
         }
-        mostrar(null, hola)
     </script>
 </body>
 </html>

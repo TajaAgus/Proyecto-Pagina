@@ -10,8 +10,9 @@ function init() {
 function add() {
     clean()
     openForm()
-    inputSearchForSave()
+    requestEmployeesCustomers()
 }
+
 function openForm() {
     htmlAgregar = document.getElementById("btnAgregar")
     htmlAgregar.setAttribute("class", "modale opened")
@@ -22,7 +23,7 @@ function closeForm() {
 }
 
 
-
+//Busca todos los trabajos y los muestra
 async function search () {
     let url = URL_API + 'works'
     let response = await fetch(url, {
@@ -55,6 +56,94 @@ async function search () {
 document.querySelector('.table > tbody').outerHTML = html
 }
 
+//Guargar tanto al agregar como al editar
+async function save() {
+    let data = {
+        "employee_id": employeeId,
+        "customer_id": customerId,
+        "date": document.getElementById('txtDate').value,
+        "address": document.getElementById('txtAddress').value
+    }
+    
+    var id = document.getElementById('txtId').value
+     if (id != '') {
+         data.id = id
+     }
+
+    let date = `${data.date}`
+    date = date.replace('T', ' ')
+    data.date = date
+
+    if (checkData(data)) {
+        let url = URL_API + 'works'  
+            await fetch(url, {
+            "method": 'POST',
+            "body": JSON.stringify(data),
+            "headers": {
+                "Content-Type": 'application/json'
+            }
+        })
+        window.location.reload()
+    }
+}
+
+//Eliminar
+async function remove(id) {
+    respuesta = confirm('¿Está seguro de eliminarlo?') 
+    if (respuesta) { let url = URL_API + 'works/' + id
+        await fetch(url, {
+        "method": 'DELETE',
+        "headers": {
+            "Content-Type": 'application/json'
+         }
+        })
+    }
+    window.location.reload(); 
+}
+
+
+//Editar
+let forEdit = false
+function edit(id) {
+    openForm()
+    let work = works.find(x => x.id == id) //trae el trabajo con la id que le pasamos
+    document.getElementById('txtId').value = work.id
+    document.getElementById('txtCustomer').value = work.customer
+    document.getElementById('txtEmployee').value = work.employee
+    document.getElementById('txtDate').value = transformDateForJS(transformDateToShow(work.date))
+    document.getElementById('txtAddress').value = work.address
+    forEdit = true
+    requestEmployeesCustomers()
+}
+
+//Limpia formulario
+function clean() {
+    document.getElementById('txtId').value = ''
+    document.getElementById('txtCustomer').value = ''
+    document.getElementById('txtEmployee').value = ''
+    document.getElementById('txtDate').value = ''
+    document.getElementById('txtAddress').value = ''
+}
+
+//Chequea la info del formulario
+function checkData (data) {
+    let dataChecked
+    let text = "Campos erroneos o vacios: "
+    let dataChecked1 = data.employee_id ? true : false
+    dataChecked1 ? true : text += "empleado "
+    let dataChecked2 = data.customer_id ? true : false 
+    dataChecked2 ? true : text += "cliente "
+    let dataChecked3 = data.date ? true : false
+    dataChecked3 ? true : text += "fecha "
+    let dataChecked4 = data.address ? true : false 
+    dataChecked4 ? true : text += "dirección"
+    if (dataChecked1 && dataChecked2 && dataChecked3 && dataChecked4) {
+        dataChecked = true
+    } else {dataChecked = false}
+    if (dataChecked) {return true} else {return false, alert(text)} 
+}
+
+//Transfroma el formato de fecha para mostrarlo
 function transformDateToShow (date) {
     date = date.replace('Jan', '01')
     date = date.replace('Feb', '02')
@@ -75,10 +164,13 @@ function transformDateToShow (date) {
         return date
 }
 
+//Transfroma el formato de fecha para que lo entienda Java Script
 function transformDateForJS (date) {
+
     String.prototype.replaceAt = function(index, replacement) {
         return this.substring(0, index) + replacement + this.substring(index + 1);
     } 
+
     date = date.replace(/ /g, "-")
     date = date.replaceAt(10, "T")
     year = date.substring(6, 10)
@@ -86,96 +178,13 @@ function transformDateForJS (date) {
     date = date.replace(date.substring(6,10), day)
     date = date.replace(date.substring(0,2), year)
         return date
-} 
-
-async function remove(id) {
-    respuesta = confirm('¿Está seguro de eliminarlo?') 
-    if (respuesta) { let url = URL_API + 'works/' + id
-        await fetch(url, {
-        "method": 'DELETE',
-        "headers": {
-            "Content-Type": 'application/json'
-         }
-        })
-    }
-    window.location.reload(); 
-}
-
-async function save() {
-    let data = {
-        "employee_id": employeeId,
-        "customer_id": customerId,
-        "date": document.getElementById('txtDate').value,
-        "address": document.getElementById('txtAddress').value
-    }
-    
-    var id = document.getElementById('txtId').value
-     if (id != '') {
-         data.id = id
-     }
-
-    let date = `${data.date}`
-    date = date.replace('T', ' ')
-    data.date = date
-    console.log(data)
-
-    if (checkData(data)) {
-        let url = URL_API + 'works'  
-            await fetch(url, {
-            "method": 'POST',
-            "body": JSON.stringify(data),
-            "headers": {
-                "Content-Type": 'application/json'
-            }
-        })
-        window.location.reload()
-    }
-}
-
-
-function edit(id) {
-    openForm()
-    let work = works.find(x => x.id == id) //trae el trabajo con la id que le pasamos
-    document.getElementById('txtId').value = work.id
-    document.getElementById('txtCustomer').value = work.customer
-    document.getElementById('txtEmployee').value = work.employee
-    document.getElementById('txtDate').value = transformDateForJS(transformDateToShow(work.date))
-    document.getElementById('txtAddress').value = work.address
-    let forEdit = true
-    inputSearchForSave(forEdit)
-}
-
-function clean() {
-    document.getElementById('txtId').value = ''
-    document.getElementById('txtCustomer').value = ''
-    document.getElementById('txtEmployee').value = ''
-    document.getElementById('txtDate').value = ''
-    document.getElementById('txtAddress').value = ''
-}
-
-function checkData (data) {
-    let dataChecked
-    let text = "Campos erroneos o  vacios: "
-    let dataChecked1 = data.employee_id ? true : false
-    dataChecked1 ? true : text += "empleado "
-    let dataChecked2 = data.customer_id ? true : false 
-    dataChecked2 ? true : text += "cliente "
-    let dataChecked3 = data.date ? true : false
-    dataChecked3 ? true : text += "fecha "
-    let dataChecked4 = data.address ? true : false 
-    dataChecked4 ? true : text += "dirección"
-    if (dataChecked1 && dataChecked2 && dataChecked3 && dataChecked4) {
-        dataChecked = true
-    } else {dataChecked = false}
-    if (dataChecked) {return true} else {return false, alert(text)} 
 }
 
 
 
+/////////////////////Buscador por cliente y tecnico/////////////////////////////
 
-/////////////////////buscador por cliente y tecnico/////////////////////////////
-
-//Elementos de los buscadores
+//Divs de los buscadores
 const searchWapperCustomers = document.querySelector(".search-input-customers")
 const searchWapperEmployees = document.querySelector(".search-input-employees")
 
@@ -187,9 +196,10 @@ const boxCustomers = searchWapperCustomers.querySelector(".box-customers")
 const inputBoxEmployees =  searchWapperEmployees.querySelector(".employee-input")
 const boxEmployees = searchWapperEmployees.querySelector(".box-employees")
 
+const body = document.querySelector("body")
 
-//Se llama a esta función cuando se toca el boton de agregar trabajo
-async function inputSearchForSave(forEdit) {
+//Se llama a esta función cuando se toca el boton de agregar trabajo o editar
+async function requestEmployeesCustomers() {
     //Trae un array con los objetos de clientes
     async function searchCustomers() {
         let url = URL_API + 'works/customer'
@@ -234,9 +244,17 @@ async function inputSearchForSave(forEdit) {
 
     //Editar
     if (forEdit) {
-        select(null, customers, employees)
+        idFromPerson(customers, employees)
     }
-    
+
+    inputBoxes(customers, employees, employeesNames, customersNames)
+}
+
+
+function inputBoxes (customers, employees, employeesNames, customersNames)  {
+
+    body.setAttribute("onclick", "deployCompleteList(customers, employees, employeesNames, customersNames)")
+
     //Input de customers
     inputBoxCustomers.onkeyup = (e) =>{
         let userData = e.target.value
@@ -250,19 +268,16 @@ async function inputSearchForSave(forEdit) {
             })
             searchWapperCustomers.classList.add("active") //Activa elemento css para que muestre la lista
 
-            showCustomers(emptyArray)
+            show(emptyArray, true)
 
             let allList = boxCustomers.querySelectorAll("li")
             for (let i = 0; i < allList.length; i++) { // AL hacer click en un elemento lista llama a select()
                 allList[i].setAttribute("onclick", "select(this, customers, null)")
             }
+            idFromPerson(customers, null)
         }else {
-            searchWapperCustomers.classList.remove("active") 
+            searchWapperCustomers.classList.remove("active")
         }
-    }
-    function showCustomers(list){ //Muestra la lista en el html
-        list = list.join('')
-        boxCustomers.innerHTML = list
     }
 
     //Input de empleados
@@ -270,36 +285,84 @@ async function inputSearchForSave(forEdit) {
         let userData = e.target.value
         let emptyArray = []
         if(userData){
-            emptyArray = employeesNames.filter((data)=>{ //Filtra por los nombres por la letra que comienzan
+            emptyArray = employeesNames.filter((data)=>{
                 return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
             })
-            emptyArray = emptyArray.map((data)=>{ //Crea el lista html con los nombres
+            emptyArray = emptyArray.map((data)=>{
                 return data = '<li>' + data + '</li>'
             })
-            searchWapperEmployees.classList.add("active") //Activa elemento css para que muestre la lista
+            searchWapperEmployees.classList.add("active")
 
-            showEmployees(emptyArray)
+            show(emptyArray, false)
 
             let allList = boxEmployees.querySelectorAll("li")
-            for (let i = 0; i < allList.length; i++) { // AL hacer click en un elemento lista llama a select()
+            for (let i = 0; i < allList.length; i++) {
                 allList[i].setAttribute("onclick", "select(this, null, employees)")
             }
+            idFromPerson(null, employees)
         }else {
-            searchWapperEmployees.classList.remove("active") 
+            searchWapperEmployees.classList.remove("active")
         }
     }
-    function showEmployees(list){ //Muestra la lista en el html
-        list = list.join('')
+}
+
+//Desplega la lista completa al hacer click en los input y la saca al hacer click en otro lado
+function deployCompleteList (customers, employees, employeesNames, customersNames) {
+    let isFocusCus = (inputBoxCustomers == document.activeElement)
+    let isFocusEmp = (inputBoxEmployees == document.activeElement)
+    let emptyArray = []
+    if (!isFocusCus) {
+        searchWapperCustomers.classList.remove("active")
+    }
+    if (!isFocusEmp) {
+        searchWapperEmployees.classList.remove("active")
+    }
+    if (isFocusCus) {
+        searchWapperCustomers.classList.add("active")
+        emptyArray = customersNames
+        emptyArray = emptyArray.map((data)=>{
+            return data = '<li>' + data + '</li>'
+        })
+        show(emptyArray, true)
+        let allList = boxCustomers.querySelectorAll("li")
+            for (let i = 0; i < allList.length; i++) {
+                allList[i].setAttribute("onclick", "select(this, customers, null)")
+            }
+    }
+    if (isFocusEmp) {
+        searchWapperEmployees.classList.add("active")
+        emptyArray = employeesNames
+        emptyArray = emptyArray.map((data)=>{
+            return data = '<li>' + data + '</li>'
+        })
+        show(emptyArray, false)
+        let allList = boxEmployees.querySelectorAll("li")
+            for (let i = 0; i < allList.length; i++) {
+                allList[i].setAttribute("onclick", "select(this, null, employees)")
+            }
+    }          
+}
+
+//Muestra la lista en el html
+function show(list, cusOrEmp){ 
+    list = list.join('')
+    if (cusOrEmp) {
+        boxCustomers.innerHTML = list
+    }
+    if (!cusOrEmp) {
         boxEmployees.innerHTML = list
     }
 }
-function select(element, customers, employees){ //Muestra y da el valor del elemento seleccionado en el input
-    if (customers != null && element != null) {
+
+
+//Da el valor del elemento seleccionado de la lista al input
+function select(element, customers, employees){ 
+    if (customers != null) {
         let selectUserData = element.textContent
         inputBoxCustomers.value = selectUserData
         searchWapperCustomers.classList.remove("active")
     }  
-    if (employees != null && element != null) {
+    if (employees != null) {
         let selectUserData = element.textContent
         inputBoxEmployees.value = selectUserData
         searchWapperEmployees.classList.remove("active")
@@ -307,16 +370,17 @@ function select(element, customers, employees){ //Muestra y da el valor del elem
     idFromPerson(customers, employees)
 }
 
+//Relaciona el Nombre con la id y guarda id para usarla en save()
 let customerId
 let employeeId
-function idFromPerson(customers, employees) { //Relaciona el Nombre con la id y guarda id para usarla en save()
-    console.log("se ejecuto") 
+function idFromPerson(customers, employees) {  
     if (customers != null) {
         let customerName = inputBoxCustomers.value
         for (let i = 0; i < customers.length; i++) {
             if (customerName == customers[i].name) {
             customerId  = customers[i].id
-        } 
+            break
+        } else { customerId = null }
     }
     } 
     if (employees != null) {
@@ -324,7 +388,11 @@ function idFromPerson(customers, employees) { //Relaciona el Nombre con la id y 
         for (let i = 0; i < employees.length; i++) {
             if (employeeName == employees[i].name) {
             employeeId  = employees[i].id
-        }
+            break
+        } else { employeeId = null }
     }
     }
 }
+
+
+

@@ -1,0 +1,18 @@
+.caja {
+    background-color: brown;
+    position: relative;
+    width: 177px;
+    display: none;
+}
+.caja.active {
+    display: block;
+}
+#hola:focus {
+    background-color: bisque;
+}
+
+body {
+    background-color: aquamarine;
+    position: relative;
+    width: 100px;
+}
