@@ -259,13 +259,23 @@ function inputBoxes (customers, employees, employeesNames, customersNames)  {
     inputBoxCustomers.onkeyup = (e) =>{
         let userData = e.target.value
         let emptyArray = []
+        let emptyArray2 = []
         if(userData){
-            emptyArray = customersNames.filter((data)=>{ //Filtra por los nombres por la letra que comienzan
-                return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
+            emptyArray = customersNames.filter((data)=>{ //Filtra los nombres por la letra que comienzan
+                    return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
             })
+            emptyArray2 = customersNames.filter((data2)=>{ //Filtra los apellidos por la letra que comienzan 
+                    return data2.split(" ")[1].toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
+            })
+            
             emptyArray = emptyArray.map((data)=>{ //Crea el lista html con los nombres
                 return data = '<li>' + data + '</li>'
             })
+            emptyArray2 = emptyArray2.map((data2)=>{ //Crea el lista html con los nombres
+                return data2 = '<li>' + data2 + '</li>'
+            })
+            emptyArray = emptyArray.concat(emptyArray2)
+
             searchWapperCustomers.classList.add("active") //Activa elemento css para que muestre la lista
 
             show(emptyArray, true)
@@ -324,6 +334,7 @@ function deployCompleteList (customers, employees, employeesNames, customersName
             return data = '<li>' + data + '</li>'
         })
         show(emptyArray, true)
+
         let allList = boxCustomers.querySelectorAll("li")
             for (let i = 0; i < allList.length; i++) {
                 allList[i].setAttribute("onclick", "select(this, customers, null)")
@@ -335,7 +346,9 @@ function deployCompleteList (customers, employees, employeesNames, customersName
         emptyArray = emptyArray.map((data)=>{
             return data = '<li>' + data + '</li>'
         })
+
         show(emptyArray, false)
+
         let allList = boxEmployees.querySelectorAll("li")
             for (let i = 0; i < allList.length; i++) {
                 allList[i].setAttribute("onclick", "select(this, null, employees)")
