@@ -264,15 +264,15 @@ function inputBoxes (customers, employees, employeesNames, customersNames)  {
             emptyArray = customersNames.filter((data)=>{ //Filtra los nombres por la letra que comienzan
                     return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
             })
-            emptyArray2 = customersNames.filter((data2)=>{ //Filtra los apellidos por la letra que comienzan 
-                    return data2.split(" ")[1].toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
+            emptyArray2 = customersNames.filter((data)=>{ //Filtra los apellidos por la letra que comienzan 
+                    return data.split(" ")[1].toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
             })
             
             emptyArray = emptyArray.map((data)=>{ //Crea el lista html con los nombres
                 return data = '<li>' + data + '</li>'
             })
-            emptyArray2 = emptyArray2.map((data2)=>{ //Crea el lista html con los nombres
-                return data2 = '<li>' + data2 + '</li>'
+            emptyArray2 = emptyArray2.map((data)=>{ //Crea el lista html con los nombres
+                return data = '<li>' + data + '</li>'
             })
             emptyArray = emptyArray.concat(emptyArray2)
 
@@ -294,22 +294,33 @@ function inputBoxes (customers, employees, employeesNames, customersNames)  {
     inputBoxEmployees.onkeyup = (e) =>{
         let userData = e.target.value
         let emptyArray = []
+        let emptyArray2 = []
         if(userData){
-            emptyArray = employeesNames.filter((data)=>{
-                return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
+            emptyArray = employeesNames.filter((data)=>{ //Filtra los nombres por la letra que comienzan
+                    return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
             })
-            emptyArray = emptyArray.map((data)=>{
+            emptyArray2 = employeesNames.filter((data)=>{ //Filtra los apellidos por la letra que comienzan 
+                    return data.split(" ")[1].toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
+            })
+            
+            emptyArray = emptyArray.map((data)=>{ //Crea el lista html con los nombres
                 return data = '<li>' + data + '</li>'
             })
-            searchWapperEmployees.classList.add("active")
+            emptyArray2 = emptyArray2.map((data)=>{ //Crea el lista html con los nombres
+                return data = '<li>' + data + '</li>'
+            })
+            emptyArray = emptyArray.concat(emptyArray2)
+            console.log(emptyArray)
+
+            searchWapperEmployees.classList.add("active") //Activa elemento css para que muestre la lista
 
             show(emptyArray, false)
 
             let allList = boxEmployees.querySelectorAll("li")
-            for (let i = 0; i < allList.length; i++) {
-                allList[i].setAttribute("onclick", "select(this, null, employees)")
+            for (let i = 0; i < allList.length; i++) { // AL hacer click en un elemento lista llama a select()
+                allList[i].setAttribute("onclick", "select(this, employees, null)")
             }
-            idFromPerson(null, employees)
+            idFromPerson(employees, null)
         }else {
             searchWapperEmployees.classList.remove("active")
         }
