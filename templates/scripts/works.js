@@ -20,6 +20,7 @@ function openForm() {
 function closeForm() {
     htmlAgregar = document.getElementById("btnAgregar")
     htmlAgregar.setAttribute("class", "modale")
+    body.removeAttribute("onclick")
 }
 
 
@@ -248,13 +249,12 @@ async function requestEmployeesCustomers() {
     }
 
     inputBoxes(customers, employees, employeesNames, customersNames)
+
+    body.setAttribute("onclick", "deployCompleteList(customers, employees, employeesNames, customersNames)")
 }
 
 
 function inputBoxes (customers, employees, employeesNames, customersNames)  {
-
-    body.setAttribute("onclick", "deployCompleteList(customers, employees, employeesNames, customersNames)")
-
     //Input de customers
     inputBoxCustomers.onkeyup = (e) =>{
         let userData = e.target.value
@@ -278,15 +278,21 @@ function inputBoxes (customers, employees, employeesNames, customersNames)  {
 
             searchWapperCustomers.classList.add("active") //Activa elemento css para que muestre la lista
 
+            idFromPerson(customers, null)
+
             show(emptyArray, true)
 
             let allList = boxCustomers.querySelectorAll("li")
             for (let i = 0; i < allList.length; i++) { // AL hacer click en un elemento lista llama a select()
                 allList[i].setAttribute("onclick", "select(this, customers, null)")
             }
-            idFromPerson(customers, null)
-        }else {
-            searchWapperCustomers.classList.remove("active")
+
+            if (emptyArray.length == 0) {
+                searchWapperCustomers.classList.remove("active")
+            }
+
+        } else if (inputBoxCustomers.value == "") {
+            deployCompleteList(customers, null, null, customersNames)
         }
     }
 
@@ -309,36 +315,43 @@ function inputBoxes (customers, employees, employeesNames, customersNames)  {
             emptyArray2 = emptyArray2.map((data)=>{ //Crea el lista html con los nombres
                 return data = '<li>' + data + '</li>'
             })
-            emptyArray = emptyArray.concat(emptyArray2)
-            console.log(emptyArray)
+            emptyArray = Array.from(new Set(emptyArray.concat(emptyArray2)))
 
             searchWapperEmployees.classList.add("active") //Activa elemento css para que muestre la lista
+
+            idFromPerson(null, employees)
 
             show(emptyArray, false)
 
             let allList = boxEmployees.querySelectorAll("li")
             for (let i = 0; i < allList.length; i++) { // AL hacer click en un elemento lista llama a select()
-                allList[i].setAttribute("onclick", "select(this, employees, null)")
+                allList[i].setAttribute("onclick", "select(this, null, employees)")
             }
-            idFromPerson(employees, null)
-        }else {
-            searchWapperEmployees.classList.remove("active")
+
+
+            if (emptyArray.length == 0) {
+                searchWapperEmployees.classList.remove("active")
+            }
+
+        }else if (inputBoxEmployees.value == "") {
+            deployCompleteList(null, employees, employeesNames, null)
         }
     }
 }
+
 
 //Desplega la lista completa al hacer click en los input y la saca al hacer click en otro lado
 function deployCompleteList (customers, employees, employeesNames, customersNames) {
     let isFocusCus = (inputBoxCustomers == document.activeElement)
     let isFocusEmp = (inputBoxEmployees == document.activeElement)
     let emptyArray = []
-    if (!isFocusCus) {
+    if (!isFocusCus && searchWapperCustomers.classList.contains("active")) {
         searchWapperCustomers.classList.remove("active")
     }
-    if (!isFocusEmp) {
+    if (!isFocusEmp && searchWapperEmployees.classList.contains("active")) {
         searchWapperEmployees.classList.remove("active")
     }
-    if (isFocusCus) {
+    if (isFocusCus && inputBoxEmployees.value == "") {
         searchWapperCustomers.classList.add("active")
         emptyArray = customersNames
         emptyArray = emptyArray.map((data)=>{
@@ -351,7 +364,7 @@ function deployCompleteList (customers, employees, employeesNames, customersName
                 allList[i].setAttribute("onclick", "select(this, customers, null)")
             }
     }
-    if (isFocusEmp) {
+    if (isFocusEmp && inputBoxEmployees.value == "") {
         searchWapperEmployees.classList.add("active")
         emptyArray = employeesNames
         emptyArray = emptyArray.map((data)=>{
@@ -368,7 +381,7 @@ function deployCompleteList (customers, employees, employeesNames, customersName
 }
 
 //Muestra la lista en el html
-function show(list, cusOrEmp){ 
+function show(list, cusOrEmp){
     list = list.join('')
     if (cusOrEmp) {
         boxCustomers.innerHTML = list
@@ -380,24 +393,25 @@ function show(list, cusOrEmp){
 
 
 //Da el valor del elemento seleccionado de la lista al input
-function select(element, customers, employees){ 
+function select(element, customers, employees){
     if (customers != null) {
         let selectUserData = element.textContent
         inputBoxCustomers.value = selectUserData
         searchWapperCustomers.classList.remove("active")
+        idFromPerson(customers, null)
     }  
     if (employees != null) {
         let selectUserData = element.textContent
         inputBoxEmployees.value = selectUserData
         searchWapperEmployees.classList.remove("active")
+        idFromPerson(null, employees)
     }
-    idFromPerson(customers, employees)
 }
 
 //Relaciona el Nombre con la id y guarda id para usarla en save()
 let customerId
 let employeeId
-function idFromPerson(customers, employees) {  
+function idFromPerson(customers, employees) {
     if (customers != null) {
         let customerName = inputBoxCustomers.value
         for (let i = 0; i < customers.length; i++) {
@@ -405,7 +419,7 @@ function idFromPerson(customers, employees) {
             customerId  = customers[i].id
             break
         } else { customerId = null }
-    }
+        }
     } 
     if (employees != null) {
         let employeeName = inputBoxEmployees.value
@@ -414,9 +428,6 @@ function idFromPerson(customers, employees) {
             employeeId  = employees[i].id
             break
         } else { employeeId = null }
-    }
+        }
     }
 }
-
-
-

@@ -20,6 +20,11 @@
 
 
     <script>
+        var myArray1 = [5, 7, 9];
+        var myArray2 = [9, 8, 5, 10];
+        //after concatenating two arrays, add the merged array to the set
+        var myFinalArray = Array.from(new Set(myArray1.concat(myArray2))); 
+        console.log(myFinalArray);
         let cuerpo = document.getElementById("cuerpo")
         let input = document.getElementById("hola")
         let box = document.querySelector("caja")
