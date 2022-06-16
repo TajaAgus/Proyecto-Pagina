@@ -190,11 +190,11 @@ const searchWapperCustomers = document.querySelector(".search-input-customers")
 const searchWapperEmployees = document.querySelector(".search-input-employees")
 
 //Elementos del buscador de clientes
-const inputBoxCustomers =  searchWapperCustomers.querySelector(".customer-input")
+const inputBoxCustomers = searchWapperCustomers.querySelector(".customer-input")
 const boxCustomers = searchWapperCustomers.querySelector(".box-customers")
 
 //Elementos del buscador de empleados
-const inputBoxEmployees =  searchWapperEmployees.querySelector(".employee-input")
+const inputBoxEmployees = searchWapperEmployees.querySelector(".employee-input")
 const boxEmployees = searchWapperEmployees.querySelector(".box-employees")
 
 const body = document.querySelector("body")
@@ -267,7 +267,6 @@ function inputBoxes (customers, employees, employeesNames, customersNames)  {
             emptyArray2 = customersNames.filter((data)=>{ //Filtra los apellidos por la letra que comienzan 
                     return data.split(" ")[1].toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
             })
-            
             emptyArray = emptyArray.map((data)=>{ //Crea el lista html con los nombres
                 return data = '<li>' + data + '</li>'
             })
@@ -342,16 +341,16 @@ function inputBoxes (customers, employees, employeesNames, customersNames)  {
 
 //Desplega la lista completa al hacer click en los input y la saca al hacer click en otro lado
 function deployCompleteList (customers, employees, employeesNames, customersNames) {
-    let isFocusCus = (inputBoxCustomers == document.activeElement)
-    let isFocusEmp = (inputBoxEmployees == document.activeElement)
+    let isFocusCustomer = (inputBoxCustomers == document.activeElement)
+    let isFocusEmployee = (inputBoxEmployees == document.activeElement)
     let emptyArray = []
-    if (!isFocusCus && searchWapperCustomers.classList.contains("active")) {
+    if (!isFocusCustomer && searchWapperCustomers.classList.contains("active")) {
         searchWapperCustomers.classList.remove("active")
     }
-    if (!isFocusEmp && searchWapperEmployees.classList.contains("active")) {
+    if (!isFocusEmployee && searchWapperEmployees.classList.contains("active")) {
         searchWapperEmployees.classList.remove("active")
     }
-    if (isFocusCus && inputBoxEmployees.value == "") {
+    if (isFocusCustomer && inputBoxEmployees.value == "") {
         searchWapperCustomers.classList.add("active")
         emptyArray = customersNames
         emptyArray = emptyArray.map((data)=>{
@@ -364,7 +363,7 @@ function deployCompleteList (customers, employees, employeesNames, customersName
                 allList[i].setAttribute("onclick", "select(this, customers, null)")
             }
     }
-    if (isFocusEmp && inputBoxEmployees.value == "") {
+    if (isFocusEmployee && inputBoxEmployees.value == "") {
         searchWapperEmployees.classList.add("active")
         emptyArray = employeesNames
         emptyArray = emptyArray.map((data)=>{
