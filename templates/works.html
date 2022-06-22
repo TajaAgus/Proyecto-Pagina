@@ -62,13 +62,13 @@
       <input id="txtId" type="hidden" placeholder="ID" size="20" /><br />
     <div class="search-input">
       <div class="search-input-customers">
-        <input id="txtCustomer" type="search" placeholder="Cliente" class="customer-input" spellcheck="false">
+        <input id="txtCustomer" type="search" placeholder="Cliente" class="customer-input" spellcheck="false" onclick="customersList()" onselect="customersList()">
         <div class="box-customers">
           <!--EN SCRIPT-->
         </div>
       </div>
         <div class="search-input-employees">
-          <input id="txtEmployee" type="search" placeholder="Técnico" class="employee-input" spellcheck="false">
+          <input id="txtEmployee" type="search" placeholder="Técnico" class="employee-input" spellcheck="false" onclick="employeesList()" onselect="employeesList()">
           <div class="box-employees">
         </div>
           <!--EN SCRIPT-->
@@ -83,7 +83,7 @@
   </div>
 </div>
 
-
-<script src="scripts/works.js"></script>
+<script src="scripts/works/search.js"></script>
+<script src="scripts/works/works.js"></script>
 </body>
 </html>

@@ -6,10 +6,157 @@
   <component name="ChangeListManager">
     <list default="true" id="a9982eba-b10e-4ea4-895c-05d01f723d95" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/aria_log.00000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/aria_log_control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/ib_logfile0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/ib_logfile1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/multi-master.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/my.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/column_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/column_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/column_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/columns_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/columns_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/columns_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/db.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/db.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/db.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/event.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/event.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/event.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/func.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/func.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/func.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/general_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/general_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/general_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/global_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/global_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/global_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/gtid_slave_pos.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/gtid_slave_pos.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_category.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_category.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_category.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_keyword.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_keyword.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_keyword.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_relation.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_relation.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_relation.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_topic.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_topic.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/help_topic.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/index_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/index_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/innodb_index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/innodb_index_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/innodb_table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/innodb_table_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/plugin.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/plugin.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/plugin.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/proc.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/proc.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/proc.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/procs_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/procs_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/procs_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/proxies_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/proxies_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/proxies_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/roles_mapping.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/roles_mapping.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/roles_mapping.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/servers.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/servers.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/servers.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/slow_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/slow_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/slow_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/table_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/table_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/tables_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/tables_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/tables_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_leap_second.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_leap_second.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_leap_second.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_name.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_name.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_name.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_transition.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_transition.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_transition.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_transition_type.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_transition_type.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/time_zone_transition_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/transaction_registry.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/transaction_registry.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql/user.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/mysql_error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/performance_schema/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__bookmark.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__bookmark.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__central_columns.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__central_columns.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__column_info.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__column_info.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__designer_settings.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__designer_settings.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__export_templates.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__export_templates.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__favorite.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__favorite.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__history.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__history.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__navigationhiding.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__navigationhiding.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__pdf_pages.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__pdf_pages.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__recent.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__recent.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__relation.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__relation.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__savedsearches.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__savedsearches.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__table_coords.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__table_coords.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__table_info.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__table_info.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__table_uiprefs.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__table_uiprefs.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__tracking.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__tracking.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__userconfig.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__userconfig.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__usergroups.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__usergroups.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__users.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/phpmyadmin/pma__users.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/system/customers.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/system/customers.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/system/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/system/employees.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/system/employees.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/system/works.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/system/works.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup xampp (carpeta data)/test/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/codigo/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/codigo/html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cssExterno/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cssExterno/hover-min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/scripts/works.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/scripts/works.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/scripts/works.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/works.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

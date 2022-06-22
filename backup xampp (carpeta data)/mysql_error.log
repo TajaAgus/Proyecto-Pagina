@@ -1,1122 +1,0 @@
-2022-03-18 19:38:30 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-18 19:38:30 0 [Note] InnoDB: Uses event mutexes
-2022-03-18 19:38:30 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-18 19:38:30 0 [Note] InnoDB: Number of pools: 1
-2022-03-18 19:38:30 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-18 19:38:30 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-18 19:38:30 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-18 19:38:30 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
-2022-03-18 19:38:30 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-18 19:38:30 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-18 19:38:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-18 19:38:30 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-18 19:38:30 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-18 19:38:30 0 [Note] InnoDB: Waiting for purge to start
-2022-03-18 19:38:30 0 [Note] InnoDB: 10.4.22 started; log sequence number 300297; transaction id 170
-2022-03-18 19:38:30 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-18 19:38:30 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-18 19:38:30 0 [Note] Server socket created on IP: '::'.
-2022-03-19 13:31:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-19 13:31:24 0 [Note] InnoDB: Uses event mutexes
-2022-03-19 13:31:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-19 13:31:24 0 [Note] InnoDB: Number of pools: 1
-2022-03-19 13:31:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-19 13:31:24 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-19 13:31:24 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-19 13:31:24 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=855580
-2022-03-19 13:31:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-19 13:31:24 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-19 13:31:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-19 13:31:24 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-19 13:31:24 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-19 13:31:24 0 [Note] InnoDB: Waiting for purge to start
-2022-03-19 13:31:24 0 [Note] InnoDB: 10.4.22 started; log sequence number 855589; transaction id 707
-2022-03-19 13:31:24 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-19 13:31:24 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-19 13:31:24 0 [Note] InnoDB: Buffer pool(s) load completed at 220319 13:31:24
-2022-03-19 13:31:24 0 [Note] Server socket created on IP: '::'.
-2022-03-20 20:27:06 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-20 20:27:06 0 [Note] InnoDB: Uses event mutexes
-2022-03-20 20:27:06 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-20 20:27:06 0 [Note] InnoDB: Number of pools: 1
-2022-03-20 20:27:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-20 20:27:06 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-20 20:27:06 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-20 20:27:06 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=910361
-2022-03-20 20:27:06 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-20 20:27:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-20 20:27:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-20 20:27:06 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-20 20:27:06 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-20 20:27:06 0 [Note] InnoDB: Waiting for purge to start
-2022-03-20 20:27:06 0 [Note] InnoDB: 10.4.22 started; log sequence number 910443; transaction id 870
-2022-03-20 20:27:06 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-20 20:27:06 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-20 20:27:06 0 [Note] InnoDB: Buffer pool(s) load completed at 220320 20:27:06
-2022-03-20 20:27:06 0 [Note] Server socket created on IP: '::'.
-2022-03-20 20:49:30 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-20 20:49:30 0 [Note] InnoDB: Uses event mutexes
-2022-03-20 20:49:30 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-20 20:49:30 0 [Note] InnoDB: Number of pools: 1
-2022-03-20 20:49:30 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-20 20:49:30 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-20 20:49:30 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-20 20:49:30 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=918102
-2022-03-20 20:49:30 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-20 20:49:30 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-20 20:49:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-20 20:49:30 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-20 20:49:30 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-20 20:49:30 0 [Note] InnoDB: Waiting for purge to start
-2022-03-20 20:49:30 0 [Note] InnoDB: 10.4.22 started; log sequence number 918111; transaction id 919
-2022-03-20 20:49:30 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-20 20:49:30 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-20 20:49:30 0 [Note] Server socket created on IP: '::'.
-2022-03-21 12:23:52 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-21 12:23:52 0 [Note] InnoDB: Uses event mutexes
-2022-03-21 12:23:52 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-21 12:23:52 0 [Note] InnoDB: Number of pools: 1
-2022-03-21 12:23:52 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-21 12:23:52 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-21 12:23:52 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-21 12:23:52 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=940984
-2022-03-21 12:23:52 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-21 12:23:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-21 12:23:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-21 12:23:52 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-21 12:23:52 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-21 12:23:52 0 [Note] InnoDB: Waiting for purge to start
-2022-03-21 12:23:52 0 [Note] InnoDB: 10.4.22 started; log sequence number 940993; transaction id 1030
-2022-03-21 12:23:52 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-21 12:23:52 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-21 12:23:52 0 [Note] InnoDB: Buffer pool(s) load completed at 220321 12:23:52
-2022-03-21 12:23:52 0 [Note] Server socket created on IP: '::'.
-2022-03-21 15:51:45 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-21 15:51:45 0 [Note] InnoDB: Uses event mutexes
-2022-03-21 15:51:45 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-21 15:51:45 0 [Note] InnoDB: Number of pools: 1
-2022-03-21 15:51:45 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-21 15:51:45 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-21 15:51:45 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-21 15:51:45 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=958754
-2022-03-21 15:51:46 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-21 15:51:46 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-21 15:51:46 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-21 15:51:46 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-21 15:51:46 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-21 15:51:46 0 [Note] InnoDB: Waiting for purge to start
-2022-03-21 15:51:46 0 [Note] InnoDB: 10.4.22 started; log sequence number 958763; transaction id 1114
-2022-03-21 15:51:46 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-21 15:51:46 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-21 15:51:46 0 [Note] Server socket created on IP: '::'.
-2022-03-22  0:12:32 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-22  0:12:32 0 [Note] InnoDB: Uses event mutexes
-2022-03-22  0:12:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-22  0:12:32 0 [Note] InnoDB: Number of pools: 1
-2022-03-22  0:12:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-22  0:12:32 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-22  0:12:32 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-22  0:12:32 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=958772
-2022-03-22  0:12:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-22  0:12:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-22  0:12:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-22  0:12:32 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-22  0:12:32 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-22  0:12:32 0 [Note] InnoDB: Waiting for purge to start
-2022-03-22  0:12:32 0 [Note] InnoDB: 10.4.22 started; log sequence number 958781; transaction id 1114
-2022-03-22  0:12:32 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-22  0:12:32 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-22  0:12:32 0 [Note] InnoDB: Buffer pool(s) load completed at 220322  0:12:32
-2022-03-22  0:12:32 0 [Note] Server socket created on IP: '::'.
-2022-03-22 23:38:45 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-22 23:38:45 0 [Note] InnoDB: Uses event mutexes
-2022-03-22 23:38:45 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-22 23:38:45 0 [Note] InnoDB: Number of pools: 1
-2022-03-22 23:38:45 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-22 23:38:45 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-22 23:38:45 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-22 23:38:46 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=958790
-2022-03-22 23:38:46 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-22 23:38:46 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-22 23:38:46 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-22 23:38:46 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-22 23:38:46 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-22 23:38:46 0 [Note] InnoDB: Waiting for purge to start
-2022-03-22 23:38:46 0 [Note] InnoDB: 10.4.22 started; log sequence number 958799; transaction id 1114
-2022-03-22 23:38:46 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-22 23:38:46 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-22 23:38:46 0 [Note] InnoDB: Buffer pool(s) load completed at 220322 23:38:46
-2022-03-22 23:38:46 0 [Note] Server socket created on IP: '::'.
-2022-03-23 18:51:43 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-03-23 18:51:43 0 [Note] InnoDB: Uses event mutexes
-2022-03-23 18:51:43 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-03-23 18:51:43 0 [Note] InnoDB: Number of pools: 1
-2022-03-23 18:51:43 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-03-23 18:51:43 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-03-23 18:51:43 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-03-23 18:51:43 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=983833
-2022-03-23 18:51:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-03-23 18:51:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-03-23 18:51:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-03-23 18:51:43 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-03-23 18:51:43 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-03-23 18:51:43 0 [Note] InnoDB: Waiting for purge to start
-2022-03-23 18:51:43 0 [Note] InnoDB: 10.4.22 started; log sequence number 983842; transaction id 1211
-2022-03-23 18:51:43 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-03-23 18:51:43 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-03-23 18:51:43 0 [Note] InnoDB: Buffer pool(s) load completed at 220323 18:51:43
-2022-03-23 18:51:43 0 [Note] Server socket created on IP: '::'.
-2022-04-02 18:49:37 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-02 18:49:37 0 [Note] InnoDB: Uses event mutexes
-2022-04-02 18:49:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-02 18:49:37 0 [Note] InnoDB: Number of pools: 1
-2022-04-02 18:49:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-02 18:49:37 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-02 18:49:37 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-02 18:49:37 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=987027
-2022-04-02 18:49:38 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-02 18:49:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-02 18:49:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-02 18:49:38 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-02 18:49:38 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-02 18:49:38 0 [Note] InnoDB: Waiting for purge to start
-2022-04-02 18:49:38 0 [Note] InnoDB: 10.4.22 started; log sequence number 987036; transaction id 1243
-2022-04-02 18:49:38 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-02 18:49:38 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-02 18:49:38 0 [Note] InnoDB: Buffer pool(s) load completed at 220402 18:49:38
-2022-04-02 18:49:38 0 [Note] Server socket created on IP: '::'.
-2022-04-19 14:40:16 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-19 14:40:16 0 [Note] InnoDB: Uses event mutexes
-2022-04-19 14:40:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-19 14:40:16 0 [Note] InnoDB: Number of pools: 1
-2022-04-19 14:40:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-19 14:40:16 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-19 14:40:16 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-19 14:40:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=989994
-2022-04-19 14:40:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-19 14:40:17 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-19 14:40:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-19 14:40:17 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-19 14:40:17 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-19 14:40:17 0 [Note] InnoDB: Waiting for purge to start
-2022-04-19 14:40:17 0 [Note] InnoDB: 10.4.24 started; log sequence number 990003; transaction id 1258
-2022-04-19 14:40:17 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-19 14:40:17 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-19 14:40:17 0 [Note] Server socket created on IP: '::'.
-2022-04-19 16:39:16 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-19 16:39:16 0 [Note] InnoDB: Uses event mutexes
-2022-04-19 16:39:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-19 16:39:16 0 [Note] InnoDB: Number of pools: 1
-2022-04-19 16:39:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-19 16:39:16 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-19 16:39:16 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-19 16:39:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1000235
-2022-04-19 16:39:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-19 16:39:17 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-19 16:39:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-19 16:39:17 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-19 16:39:17 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-19 16:39:17 0 [Note] InnoDB: Waiting for purge to start
-2022-04-19 16:39:17 0 [Note] InnoDB: 10.4.24 started; log sequence number 1000244; transaction id 1313
-2022-04-19 16:39:17 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-19 16:39:17 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-19 16:39:17 0 [Note] Server socket created on IP: '::'.
-2022-04-20 10:15:15 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-20 10:15:15 0 [Note] InnoDB: Uses event mutexes
-2022-04-20 10:15:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-20 10:15:15 0 [Note] InnoDB: Number of pools: 1
-2022-04-20 10:15:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-20 10:15:15 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-20 10:15:15 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-20 10:15:15 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1005033
-2022-04-20 10:15:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-20 10:15:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-20 10:15:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-20 10:15:15 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-20 10:15:15 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-20 10:15:15 0 [Note] InnoDB: Waiting for purge to start
-2022-04-20 10:15:15 0 [Note] InnoDB: 10.4.24 started; log sequence number 1005042; transaction id 1332
-2022-04-20 10:15:15 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-20 10:15:15 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-20 10:15:15 0 [Note] Server socket created on IP: '::'.
-2022-04-20 13:11:11 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-20 13:11:11 0 [Note] InnoDB: Uses event mutexes
-2022-04-20 13:11:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-20 13:11:11 0 [Note] InnoDB: Number of pools: 1
-2022-04-20 13:11:11 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-20 13:11:11 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-20 13:11:11 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-20 13:11:11 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1127877
-2022-04-20 13:11:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-20 13:11:11 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-20 13:11:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-20 13:11:11 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-20 13:11:11 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-20 13:11:11 0 [Note] InnoDB: Waiting for purge to start
-2022-04-20 13:11:11 0 [Note] InnoDB: 10.4.24 started; log sequence number 1127886; transaction id 1716
-2022-04-20 13:11:11 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-20 13:11:11 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-20 13:11:11 0 [Note] Server socket created on IP: '::'.
-2022-04-20 19:19:17 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-20 19:19:17 0 [Note] InnoDB: Uses event mutexes
-2022-04-20 19:19:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-20 19:19:17 0 [Note] InnoDB: Number of pools: 1
-2022-04-20 19:19:17 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-20 19:19:17 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-20 19:19:17 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-20 19:19:17 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1161678
-2022-04-20 19:19:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-20 19:19:17 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-20 19:19:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-20 19:19:17 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-20 19:19:17 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-20 19:19:17 0 [Note] InnoDB: Waiting for purge to start
-2022-04-20 19:19:17 0 [Note] InnoDB: 10.4.24 started; log sequence number 1161687; transaction id 1802
-2022-04-20 19:19:17 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-20 19:19:17 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-20 19:19:17 0 [Note] Server socket created on IP: '::'.
-2022-04-20 19:21:45 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-20 19:21:45 0 [Note] InnoDB: Uses event mutexes
-2022-04-20 19:21:45 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-20 19:21:45 0 [Note] InnoDB: Number of pools: 1
-2022-04-20 19:21:45 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-20 19:21:45 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-20 19:21:45 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-20 19:21:45 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1166146
-2022-04-20 19:21:45 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-20 19:21:45 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-20 19:21:45 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-20 19:21:45 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-20 19:21:45 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-20 19:21:45 0 [Note] InnoDB: Waiting for purge to start
-2022-04-20 19:21:45 0 [Note] InnoDB: 10.4.24 started; log sequence number 1166155; transaction id 1823
-2022-04-20 19:21:45 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-20 19:21:45 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-20 19:21:45 0 [Note] Server socket created on IP: '::'.
-2022-04-21 18:33:16 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-21 18:33:16 0 [Note] InnoDB: Uses event mutexes
-2022-04-21 18:33:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-21 18:33:16 0 [Note] InnoDB: Number of pools: 1
-2022-04-21 18:33:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-21 18:33:16 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-21 18:33:16 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-21 18:33:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1166164
-2022-04-21 18:33:16 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-21 18:33:16 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-21 18:33:16 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-21 18:33:16 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-21 18:33:16 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-21 18:33:16 0 [Note] InnoDB: Waiting for purge to start
-2022-04-21 18:33:16 0 [Note] InnoDB: 10.4.24 started; log sequence number 1166173; transaction id 1823
-2022-04-21 18:33:16 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-21 18:33:16 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-21 18:33:16 0 [Note] InnoDB: Buffer pool(s) load completed at 220421 18:33:16
-2022-04-21 18:33:16 0 [Note] Server socket created on IP: '::'.
-2022-04-22 15:52:05 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-22 15:52:05 0 [Note] InnoDB: Uses event mutexes
-2022-04-22 15:52:05 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-22 15:52:05 0 [Note] InnoDB: Number of pools: 1
-2022-04-22 15:52:05 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-22 15:52:05 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-22 15:52:05 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-22 15:52:05 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1166182
-2022-04-22 15:52:05 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-22 15:52:05 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-22 15:52:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-22 15:52:05 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-22 15:52:05 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-22 15:52:05 0 [Note] InnoDB: Waiting for purge to start
-2022-04-22 15:52:05 0 [Note] InnoDB: 10.4.24 started; log sequence number 1166191; transaction id 1823
-2022-04-22 15:52:05 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-22 15:52:05 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-22 15:52:05 0 [Note] InnoDB: Buffer pool(s) load completed at 220422 15:52:05
-2022-04-22 15:52:05 0 [Note] Server socket created on IP: '::'.
-2022-04-23 11:53:00 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-23 11:53:00 0 [Note] InnoDB: Uses event mutexes
-2022-04-23 11:53:00 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-23 11:53:00 0 [Note] InnoDB: Number of pools: 1
-2022-04-23 11:53:00 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-23 11:53:00 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-23 11:53:00 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-23 11:53:00 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1188926
-2022-04-23 11:53:00 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-23 11:53:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-23 11:53:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-23 11:53:00 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-23 11:53:00 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-23 11:53:00 0 [Note] InnoDB: Waiting for purge to start
-2022-04-23 11:53:00 0 [Note] InnoDB: 10.4.24 started; log sequence number 1188935; transaction id 1920
-2022-04-23 11:53:00 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-23 11:53:00 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-23 11:53:00 0 [Note] InnoDB: Buffer pool(s) load completed at 220423 11:53:00
-2022-04-23 11:53:00 0 [Note] Server socket created on IP: '::'.
-2022-04-23 14:44:16 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-23 14:44:16 0 [Note] InnoDB: Uses event mutexes
-2022-04-23 14:44:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-23 14:44:16 0 [Note] InnoDB: Number of pools: 1
-2022-04-23 14:44:16 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-23 14:44:16 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-23 14:44:16 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-23 14:44:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1297600
-2022-04-23 14:44:16 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-23 14:44:16 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-23 14:44:16 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-23 14:44:16 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-23 14:44:16 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-23 14:44:16 0 [Note] InnoDB: Waiting for purge to start
-2022-04-23 14:44:17 0 [Note] InnoDB: 10.4.24 started; log sequence number 1297609; transaction id 2132
-2022-04-23 14:44:17 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-23 14:44:17 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-23 14:44:17 0 [Note] Server socket created on IP: '::'.
-2022-04-25 18:12:13 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-25 18:12:13 0 [Note] InnoDB: Uses event mutexes
-2022-04-25 18:12:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-25 18:12:13 0 [Note] InnoDB: Number of pools: 1
-2022-04-25 18:12:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-25 18:12:13 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-25 18:12:13 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-25 18:12:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1342545
-2022-04-25 18:12:13 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-25 18:12:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-25 18:12:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-25 18:12:13 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-25 18:12:13 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-25 18:12:13 0 [Note] InnoDB: Waiting for purge to start
-2022-04-25 18:12:13 0 [Note] InnoDB: 10.4.24 started; log sequence number 1342554; transaction id 2236
-2022-04-25 18:12:13 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-25 18:12:13 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-25 18:12:13 0 [Note] Server socket created on IP: '::'.
-2022-04-25 23:51:38 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-25 23:51:38 0 [Note] InnoDB: Uses event mutexes
-2022-04-25 23:51:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-25 23:51:38 0 [Note] InnoDB: Number of pools: 1
-2022-04-25 23:51:38 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-25 23:51:38 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-25 23:51:38 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-25 23:51:38 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1380420
-2022-04-25 23:51:38 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-25 23:51:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-25 23:51:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-25 23:51:38 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-25 23:51:38 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-25 23:51:38 0 [Note] InnoDB: Waiting for purge to start
-2022-04-25 23:51:38 0 [Note] InnoDB: 10.4.24 started; log sequence number 1380429; transaction id 2345
-2022-04-25 23:51:38 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-25 23:51:38 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-25 23:51:38 0 [Note] Server socket created on IP: '::'.
-2022-04-26  0:01:42 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-26  0:01:42 0 [Note] InnoDB: Uses event mutexes
-2022-04-26  0:01:42 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-26  0:01:42 0 [Note] InnoDB: Number of pools: 1
-2022-04-26  0:01:42 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-26  0:01:42 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-26  0:01:42 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-26  0:01:42 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1382141
-2022-04-26  0:01:42 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-26  0:01:42 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-26  0:01:42 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-26  0:01:42 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-26  0:01:42 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-26  0:01:42 0 [Note] InnoDB: Waiting for purge to start
-2022-04-26  0:01:42 0 [Note] InnoDB: 10.4.24 started; log sequence number 1382150; transaction id 2377
-2022-04-26  0:01:42 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-26  0:01:42 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-26  0:01:42 0 [Note] Server socket created on IP: '::'.
-2022-04-26  0:38:04 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-26  0:38:04 0 [Note] InnoDB: Uses event mutexes
-2022-04-26  0:38:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-26  0:38:04 0 [Note] InnoDB: Number of pools: 1
-2022-04-26  0:38:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-26  0:38:04 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-26  0:38:04 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-26  0:38:04 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1411752
-2022-04-26  0:38:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-26  0:38:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-26  0:38:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-26  0:38:04 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-26  0:38:04 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-26  0:38:04 0 [Note] InnoDB: Waiting for purge to start
-2022-04-26  0:38:04 0 [Note] InnoDB: 10.4.24 started; log sequence number 1411761; transaction id 2442
-2022-04-26  0:38:04 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-26  0:38:04 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-26  0:38:04 0 [Note] Server socket created on IP: '::'.
-2022-04-29 20:43:36 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-29 20:43:36 0 [Note] InnoDB: Uses event mutexes
-2022-04-29 20:43:36 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-29 20:43:36 0 [Note] InnoDB: Number of pools: 1
-2022-04-29 20:43:36 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-29 20:43:36 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-29 20:43:36 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-29 20:43:36 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1412150
-2022-04-29 20:43:37 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-29 20:43:37 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-29 20:43:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-29 20:43:37 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-29 20:43:37 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-29 20:43:37 0 [Note] InnoDB: Waiting for purge to start
-2022-04-29 20:43:37 0 [Note] InnoDB: 10.4.24 started; log sequence number 1412159; transaction id 2449
-2022-04-29 20:43:37 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-29 20:43:37 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-29 20:43:37 0 [Note] InnoDB: Buffer pool(s) load completed at 220429 20:43:37
-2022-04-29 20:43:37 0 [Note] Server socket created on IP: '::'.
-2022-04-30  9:54:01 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-04-30  9:54:01 0 [Note] InnoDB: Uses event mutexes
-2022-04-30  9:54:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-04-30  9:54:01 0 [Note] InnoDB: Number of pools: 1
-2022-04-30  9:54:01 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-04-30  9:54:01 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-04-30  9:54:01 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-04-30  9:54:01 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1655738
-2022-04-30  9:54:01 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-04-30  9:54:01 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-04-30  9:54:01 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-04-30  9:54:01 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-04-30  9:54:01 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-04-30  9:54:01 0 [Note] InnoDB: Waiting for purge to start
-2022-04-30  9:54:01 0 [Note] InnoDB: 10.4.24 started; log sequence number 1655747; transaction id 2914
-2022-04-30  9:54:01 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-04-30  9:54:01 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-04-30  9:54:01 0 [Note] InnoDB: Buffer pool(s) load completed at 220430  9:54:01
-2022-04-30  9:54:01 0 [Note] Server socket created on IP: '::'.
-2022-05-01  9:24:02 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-01  9:24:02 0 [Note] InnoDB: Uses event mutexes
-2022-05-01  9:24:02 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-01  9:24:02 0 [Note] InnoDB: Number of pools: 1
-2022-05-01  9:24:02 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-01  9:24:02 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-01  9:24:02 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-01  9:24:02 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1773932
-2022-05-01  9:24:02 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-01  9:24:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-01  9:24:02 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-01  9:24:02 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-01  9:24:02 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-01  9:24:02 0 [Note] InnoDB: Waiting for purge to start
-2022-05-01  9:24:02 0 [Note] InnoDB: 10.4.24 started; log sequence number 1773941; transaction id 3103
-2022-05-01  9:24:02 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-01  9:24:02 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-01  9:24:02 0 [Note] Server socket created on IP: '::'.
-2022-05-02 12:49:13 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-02 12:49:13 0 [Note] InnoDB: Uses event mutexes
-2022-05-02 12:49:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-02 12:49:13 0 [Note] InnoDB: Number of pools: 1
-2022-05-02 12:49:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-02 12:49:13 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-02 12:49:13 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-02 12:49:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1774311
-2022-05-02 12:49:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-02 12:49:14 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-02 12:49:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-02 12:49:14 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-02 12:49:14 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-02 12:49:14 0 [Note] InnoDB: Waiting for purge to start
-2022-05-02 12:49:14 0 [Note] InnoDB: 10.4.24 started; log sequence number 1774320; transaction id 3110
-2022-05-02 12:49:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-02 12:49:14 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-02 12:49:14 0 [Note] InnoDB: Buffer pool(s) load completed at 220502 12:49:14
-2022-05-02 12:49:14 0 [Note] Server socket created on IP: '::'.
-2022-05-06 13:06:08 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-06 13:06:08 0 [Note] InnoDB: Uses event mutexes
-2022-05-06 13:06:08 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-06 13:06:08 0 [Note] InnoDB: Number of pools: 1
-2022-05-06 13:06:08 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-06 13:06:08 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-06 13:06:08 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-06 13:06:08 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1776075
-2022-05-06 13:06:09 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-06 13:06:09 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-06 13:06:09 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-06 13:06:09 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-06 13:06:09 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-06 13:06:09 0 [Note] InnoDB: Waiting for purge to start
-2022-05-06 13:06:09 0 [Note] InnoDB: 10.4.24 started; log sequence number 1776084; transaction id 3123
-2022-05-06 13:06:09 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-06 13:06:09 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-06 13:06:09 0 [Note] InnoDB: Buffer pool(s) load completed at 220506 13:06:09
-2022-05-06 13:06:09 0 [Note] Server socket created on IP: '::'.
-2022-05-07 11:36:13 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-07 11:36:13 0 [Note] InnoDB: Uses event mutexes
-2022-05-07 11:36:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-07 11:36:13 0 [Note] InnoDB: Number of pools: 1
-2022-05-07 11:36:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-07 11:36:13 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-07 11:36:13 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-07 11:36:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1854690
-2022-05-07 11:36:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-07 11:36:14 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-07 11:36:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-07 11:36:14 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-07 11:36:14 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-07 11:36:14 0 [Note] InnoDB: Waiting for purge to start
-2022-05-07 11:36:14 0 [Note] InnoDB: 10.4.24 started; log sequence number 1854699; transaction id 3328
-2022-05-07 11:36:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-07 11:36:14 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-07 11:36:14 0 [Note] InnoDB: Buffer pool(s) load completed at 220507 11:36:14
-2022-05-07 11:36:14 0 [Note] Server socket created on IP: '::'.
-2022-05-11 11:43:53 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-11 11:43:53 0 [Note] InnoDB: Uses event mutexes
-2022-05-11 11:43:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-11 11:43:53 0 [Note] InnoDB: Number of pools: 1
-2022-05-11 11:43:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-11 11:43:53 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-11 11:43:53 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-11 11:43:53 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1854893
-2022-05-11 11:43:53 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-11 11:43:53 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-11 11:43:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-11 11:43:53 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-11 11:43:53 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-11 11:43:53 0 [Note] InnoDB: Waiting for purge to start
-2022-05-11 11:43:53 0 [Note] InnoDB: 10.4.24 started; log sequence number 1854902; transaction id 3328
-2022-05-11 11:43:53 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-11 11:43:53 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-11 11:43:53 0 [Note] InnoDB: Buffer pool(s) load completed at 220511 11:43:53
-2022-05-11 11:43:53 0 [Note] Server socket created on IP: '::'.
-2022-05-12 15:58:55 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-12 15:58:55 0 [Note] InnoDB: Uses event mutexes
-2022-05-12 15:58:55 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-12 15:58:55 0 [Note] InnoDB: Number of pools: 1
-2022-05-12 15:58:55 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-12 15:58:55 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-12 15:58:55 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-12 15:58:55 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1958654
-2022-05-12 15:58:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-12 15:58:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-12 15:58:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-12 15:58:55 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-12 15:58:55 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-12 15:58:55 0 [Note] InnoDB: Waiting for purge to start
-2022-05-12 15:58:55 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958663; transaction id 3532
-2022-05-12 15:58:55 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-12 15:58:55 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-12 15:58:55 0 [Note] InnoDB: Buffer pool(s) load completed at 220512 15:58:55
-2022-05-12 15:58:55 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:41:54 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:41:54 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:41:54 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:41:54 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:41:54 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:41:54 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:41:54 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:41:54 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1958672
-2022-05-13 11:41:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:41:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-13 11:41:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:41:55 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:41:55 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:41:55 0 [Note] InnoDB: Waiting for purge to start
-2022-05-13 11:41:55 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958681; transaction id 3532
-2022-05-13 11:41:55 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:41:55 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:41:55 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:42:13 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:42:13 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:42:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:42:13 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:42:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:42:13 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:42:13 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:42:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:42:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:42:14 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:42:14 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:42:14 0 [Note] InnoDB: Waiting for purge to start
-2022-05-13 11:42:14 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958690; transaction id 3532
-2022-05-13 11:42:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:42:14 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:42:14 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:42:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:42:57 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:42:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:42:57 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:42:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:42:57 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:42:57 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:42:57 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:42:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:42:57 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:42:57 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:42:57 0 [Note] InnoDB: Waiting for purge to start
-2022-05-13 11:42:57 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958699; transaction id 3532
-2022-05-13 11:42:57 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:42:57 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:42:57 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:43:04 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:43:04 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:43:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:43:04 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:43:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:43:04 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:43:04 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:43:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:43:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:43:04 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:43:04 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:43:05 0 [Note] InnoDB: Waiting for purge to start
-2022-05-13 11:43:05 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958708; transaction id 3532
-2022-05-13 11:43:05 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:43:05 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:43:05 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:44:58 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:44:58 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:44:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:44:58 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:44:58 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:44:58 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:44:58 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:44:58 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:44:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:44:58 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:44:58 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:44:58 0 [Note] InnoDB: Waiting for purge to start
-2022-05-13 11:44:58 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958717; transaction id 3532
-2022-05-13 11:44:58 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:44:58 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:44:58 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:47:56 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:47:56 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:47:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:47:56 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:47:56 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:47:56 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:47:56 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:47:56 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:47:56 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:47:56 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:47:56 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:47:56 0 [Note] InnoDB: Waiting for purge to start
-2022-05-13 11:47:57 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958726; transaction id 3532
-2022-05-13 11:47:57 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:47:57 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:47:57 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:48:04 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:48:04 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:48:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:48:04 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:48:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:48:04 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:48:04 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:48:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:48:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:48:04 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:48:04 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:48:04 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958735; transaction id 3532
-2022-05-13 11:48:04 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:48:04 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:48:04 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:48:04 0 [Note] InnoDB: Buffer pool(s) load completed at 220513 11:48:04
-2022-05-13 11:48:04 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:48:04 7 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MariaDB server acts as a replica and has its hostname changed. Please use '--log-basename=#' or '--relay-log=mysql-relay-bin' to avoid this problem.
-2022-05-13 11:48:04 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:48:04 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded' to hash table
-2022-05-13 11:48:04 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:48:04 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded'
-2022-05-13 11:48:04 9 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.000026' position: 4
-2022-05-13 11:48:04 8 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:48:04 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:48:04 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread killed while connecting to master
-2022-05-13 11:48:04 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:48:04 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': master was :3306
-2022-05-13 11:48:04 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:48:04 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table' to hash table
-2022-05-13 11:48:04 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:48:04 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table'
-2022-05-13 11:48:04 11 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000001' position: 4
-2022-05-13 11:48:04 10 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:48:04 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:48:04 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread killed while connecting to master
-2022-05-13 11:48:04 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:48:04 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': master was :3306
-2022-05-13 11:48:04 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:48:04 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.' to hash table
-2022-05-13 11:48:04 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:48:04 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.'
-2022-05-13 11:48:04 13 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.000001' position: 4
-2022-05-13 11:48:04 12 [ERROR] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:48:04 7 [Note] Reading Master_info: 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'  Relay_info:'relay-log-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
-2022-05-13 11:48:04 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread killed while connecting to master
-2022-05-13 11:48:04 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:48:04 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': master was :3306
-2022-05-13 11:48:04 7 [ERROR] log 2022-05-12 15:58:55 7 [Note] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' listed in the index, but failed to stat
-2022-05-13 11:48:04 7 [ERROR] Error counting relay log space
-2022-05-13 11:48:04 7 [ERROR] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' failed
-2022-05-13 11:48:04 7 [Note] Added new Master_info 'Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution' to hash table
-2022-05-13 11:48:04 0 [Warning] Reading of some Master_info entries failed
-2022-05-13 11:48:04 0 [ERROR] Failed to initialize multi master structures
-2022-05-13 11:48:04 0 [ERROR] Aborting
-Warning: Memory not freed: 16864
-2022-05-13 11:48:17 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:48:17 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:48:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:48:17 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:48:17 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:48:17 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:48:17 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:48:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:48:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:48:17 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:48:17 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:48:17 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958744; transaction id 3532
-2022-05-13 11:48:17 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:48:17 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:48:17 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:48:17 0 [Note] InnoDB: Buffer pool(s) load completed at 220513 11:48:17
-2022-05-13 11:48:17 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:48:17 7 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MariaDB server acts as a replica and has its hostname changed. Please use '--log-basename=#' or '--relay-log=mysql-relay-bin' to avoid this problem.
-2022-05-13 11:48:17 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:48:17 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded' to hash table
-2022-05-13 11:48:17 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:48:17 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded'
-2022-05-13 11:48:17 9 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.000027' position: 4
-2022-05-13 11:48:17 8 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:48:17 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:48:17 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread killed while connecting to master
-2022-05-13 11:48:17 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:48:17 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': master was :3306
-2022-05-13 11:48:17 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:48:17 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table' to hash table
-2022-05-13 11:48:17 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:48:17 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table'
-2022-05-13 11:48:17 11 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000001' position: 4
-2022-05-13 11:48:17 10 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:48:17 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:48:17 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread killed while connecting to master
-2022-05-13 11:48:17 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:48:17 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': master was :3306
-2022-05-13 11:48:17 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:48:17 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.' to hash table
-2022-05-13 11:48:17 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:48:17 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.'
-2022-05-13 11:48:17 13 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.000001' position: 4
-2022-05-13 11:48:17 12 [ERROR] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:48:17 7 [Note] Reading Master_info: 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'  Relay_info:'relay-log-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
-2022-05-13 11:48:17 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread killed while connecting to master
-2022-05-13 11:48:17 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:48:17 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': master was :3306
-2022-05-13 11:48:17 7 [ERROR] log 2022-05-12 15:58:55 7 [Note] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' listed in the index, but failed to stat
-2022-05-13 11:48:17 7 [ERROR] Error counting relay log space
-2022-05-13 11:48:17 7 [ERROR] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' failed
-2022-05-13 11:48:17 7 [Note] Added new Master_info 'Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution' to hash table
-2022-05-13 11:48:17 0 [Warning] Reading of some Master_info entries failed
-2022-05-13 11:48:17 0 [ERROR] Failed to initialize multi master structures
-2022-05-13 11:48:17 0 [ERROR] Aborting
-Warning: Memory not freed: 16864
-2022-05-13 11:49:00 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:49:00 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:49:00 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:49:00 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:49:00 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:49:00 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:49:00 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:49:00 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:49:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:49:00 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:49:00 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:49:00 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958753; transaction id 3532
-2022-05-13 11:49:00 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:49:00 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:49:00 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:49:00 0 [Note] InnoDB: Buffer pool(s) load completed at 220513 11:49:00
-2022-05-13 11:49:00 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:49:00 7 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MariaDB server acts as a replica and has its hostname changed. Please use '--log-basename=#' or '--relay-log=mysql-relay-bin' to avoid this problem.
-2022-05-13 11:49:00 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:49:00 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded' to hash table
-2022-05-13 11:49:00 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:00 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded'
-2022-05-13 11:49:00 9 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.000028' position: 4
-2022-05-13 11:49:00 8 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:00 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:49:00 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:00 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:00 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': master was :3306
-2022-05-13 11:49:00 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:49:00 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table' to hash table
-2022-05-13 11:49:00 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:00 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table'
-2022-05-13 11:49:00 11 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000001' position: 4
-2022-05-13 11:49:00 10 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:00 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:49:00 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:00 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:00 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': master was :3306
-2022-05-13 11:49:00 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:49:00 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.' to hash table
-2022-05-13 11:49:00 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:00 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.'
-2022-05-13 11:49:00 13 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.000001' position: 4
-2022-05-13 11:49:00 12 [ERROR] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:00 7 [Note] Reading Master_info: 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'  Relay_info:'relay-log-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
-2022-05-13 11:49:00 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:00 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:00 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': master was :3306
-2022-05-13 11:49:00 7 [ERROR] log 2022-05-12 15:58:55 7 [Note] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' listed in the index, but failed to stat
-2022-05-13 11:49:00 7 [ERROR] Error counting relay log space
-2022-05-13 11:49:00 7 [ERROR] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' failed
-2022-05-13 11:49:00 7 [Note] Added new Master_info 'Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution' to hash table
-2022-05-13 11:49:00 0 [Warning] Reading of some Master_info entries failed
-2022-05-13 11:49:00 0 [ERROR] Failed to initialize multi master structures
-2022-05-13 11:49:00 0 [ERROR] Aborting
-Warning: Memory not freed: 16864
-2022-05-13 11:49:17 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:49:17 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:49:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:49:17 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:49:17 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:49:17 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:49:17 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:49:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:49:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:49:17 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:49:17 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:49:17 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958762; transaction id 3532
-2022-05-13 11:49:17 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:49:17 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:49:17 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:49:17 0 [Note] InnoDB: Buffer pool(s) load completed at 220513 11:49:17
-2022-05-13 11:49:17 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:49:17 7 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MariaDB server acts as a replica and has its hostname changed. Please use '--log-basename=#' or '--relay-log=mysql-relay-bin' to avoid this problem.
-2022-05-13 11:49:17 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:49:17 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded' to hash table
-2022-05-13 11:49:17 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:17 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded'
-2022-05-13 11:49:17 9 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.000029' position: 4
-2022-05-13 11:49:17 8 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:17 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:49:17 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:17 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:17 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': master was :3306
-2022-05-13 11:49:17 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:49:17 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table' to hash table
-2022-05-13 11:49:17 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:17 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table'
-2022-05-13 11:49:17 11 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000001' position: 4
-2022-05-13 11:49:17 10 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:17 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:49:17 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:17 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:17 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': master was :3306
-2022-05-13 11:49:17 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:49:17 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.' to hash table
-2022-05-13 11:49:17 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:17 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.'
-2022-05-13 11:49:17 13 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.000001' position: 4
-2022-05-13 11:49:17 12 [ERROR] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:17 7 [Note] Reading Master_info: 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'  Relay_info:'relay-log-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
-2022-05-13 11:49:17 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:17 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:17 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': master was :3306
-2022-05-13 11:49:17 7 [ERROR] log 2022-05-12 15:58:55 7 [Note] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' listed in the index, but failed to stat
-2022-05-13 11:49:17 7 [ERROR] Error counting relay log space
-2022-05-13 11:49:17 7 [ERROR] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' failed
-2022-05-13 11:49:17 7 [Note] Added new Master_info 'Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution' to hash table
-2022-05-13 11:49:17 0 [Warning] Reading of some Master_info entries failed
-2022-05-13 11:49:17 0 [ERROR] Failed to initialize multi master structures
-2022-05-13 11:49:17 0 [ERROR] Aborting
-Warning: Memory not freed: 16864
-2022-05-13 11:49:32 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:49:32 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:49:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:49:32 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:49:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:49:32 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:49:32 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:49:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:49:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:49:32 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:49:33 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:49:33 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958771; transaction id 3532
-2022-05-13 11:49:33 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:49:33 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:49:33 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:49:33 0 [Note] InnoDB: Buffer pool(s) load completed at 220513 11:49:33
-2022-05-13 11:49:33 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:49:33 7 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MariaDB server acts as a replica and has its hostname changed. Please use '--log-basename=#' or '--relay-log=mysql-relay-bin' to avoid this problem.
-2022-05-13 11:49:33 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:49:33 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded' to hash table
-2022-05-13 11:49:33 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:33 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded'
-2022-05-13 11:49:33 9 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.000030' position: 4
-2022-05-13 11:49:33 8 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:33 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:49:33 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:33 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:33 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': master was :3306
-2022-05-13 11:49:33 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:49:33 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table' to hash table
-2022-05-13 11:49:33 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:33 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table'
-2022-05-13 11:49:33 11 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000001' position: 4
-2022-05-13 11:49:33 10 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:33 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:49:33 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:33 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:33 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': master was :3306
-2022-05-13 11:49:33 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:49:33 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.' to hash table
-2022-05-13 11:49:33 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:33 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.'
-2022-05-13 11:49:33 13 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.000001' position: 4
-2022-05-13 11:49:33 12 [ERROR] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:33 7 [Note] Reading Master_info: 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'  Relay_info:'relay-log-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
-2022-05-13 11:49:33 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:33 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:33 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': master was :3306
-2022-05-13 11:49:33 7 [ERROR] log 2022-05-12 15:58:55 7 [Note] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' listed in the index, but failed to stat
-2022-05-13 11:49:33 7 [ERROR] Error counting relay log space
-2022-05-13 11:49:33 7 [ERROR] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' failed
-2022-05-13 11:49:33 7 [Note] Added new Master_info 'Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution' to hash table
-2022-05-13 11:49:33 0 [Warning] Reading of some Master_info entries failed
-2022-05-13 11:49:33 0 [ERROR] Failed to initialize multi master structures
-2022-05-13 11:49:33 0 [ERROR] Aborting
-Warning: Memory not freed: 16864
-2022-05-13 11:49:49 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:49:49 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:49:49 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:49:49 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:49:49 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:49:49 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:49:49 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:49:50 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:49:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:49:50 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:49:50 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:49:50 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958780; transaction id 3532
-2022-05-13 11:49:50 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:49:50 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:49:50 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:49:50 0 [Note] InnoDB: Buffer pool(s) load completed at 220513 11:49:50
-2022-05-13 11:49:50 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:49:50 7 [Warning] Neither --relay-log nor --relay-log-index were used; so replication may break when this MariaDB server acts as a replica and has its hostname changed. Please use '--log-basename=#' or '--relay-log=mysql-relay-bin' to avoid this problem.
-2022-05-13 11:49:50 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.info'
-2022-05-13 11:49:50 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded' to hash table
-2022-05-13 11:49:50 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:50 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded'
-2022-05-13 11:49:50 9 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020reading@0020of@0020all@0020master_info@0020entries@0020succeeded@000d.000031' position: 4
-2022-05-13 11:49:50 8 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:50 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:49:50 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:50 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:50 8 [Note] Master '2022-04-19 16:39:17 0 [Note] Reading of all Master_info entries succeeded': master was :3306
-2022-05-13 11:49:50 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
-2022-05-13 11:49:50 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table' to hash table
-2022-05-13 11:49:50 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:50 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table'
-2022-05-13 11:49:50 11 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000001' position: 4
-2022-05-13 11:49:50 10 [ERROR] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:50 7 [Note] Reading Master_info: 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'  Relay_info:'relay-log-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:49:50 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:50 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:50 10 [Note] Master '2022-04-19 16:39:17 0 [Note] Added new Master_info '' to hash table': master was :3306
-2022-05-13 11:49:50 7 [Note] Initialized Master_info from 'master-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
-2022-05-13 11:49:50 7 [Note] Added new Master_info '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.' to hash table
-2022-05-13 11:49:50 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
-2022-05-13 11:49:50 7 [Note] Started replication for '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.'
-2022-05-13 11:49:50 13 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2022@002d04@002d19@002016@003a39@003a17@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.000001' position: 4
-2022-05-13 11:49:50 12 [ERROR] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
-2022-05-13 11:49:50 7 [Note] Reading Master_info: 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'  Relay_info:'relay-log-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
-2022-05-13 11:49:50 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread killed while connecting to master
-2022-05-13 11:49:50 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread exiting, read up to log 'FIRST', position 4
-2022-05-13 11:49:50 12 [Note] Master '2022-04-19 16:39:17 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': master was :3306
-2022-05-13 11:49:50 7 [ERROR] log 2022-05-12 15:58:55 7 [Note] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' listed in the index, but failed to stat
-2022-05-13 11:49:50 7 [ERROR] Error counting relay log space
-2022-05-13 11:49:50 7 [ERROR] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e24@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info' failed
-2022-05-13 11:49:50 7 [Note] Added new Master_info 'Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution' to hash table
-2022-05-13 11:49:50 0 [Warning] Reading of some Master_info entries failed
-2022-05-13 11:49:50 0 [ERROR] Failed to initialize multi master structures
-2022-05-13 11:49:50 0 [ERROR] Aborting
-Warning: Memory not freed: 16864
-2022-05-13 11:59:14 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-13 11:59:14 0 [Note] InnoDB: Uses event mutexes
-2022-05-13 11:59:14 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-13 11:59:14 0 [Note] InnoDB: Number of pools: 1
-2022-05-13 11:59:14 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-13 11:59:14 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-13 11:59:14 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-13 11:59:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-13 11:59:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-13 11:59:14 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-13 11:59:14 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-13 11:59:14 0 [Note] InnoDB: 10.4.24 started; log sequence number 1958789; transaction id 3532
-2022-05-13 11:59:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 11:59:14 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-13 11:59:14 0 [Note] Server socket created on IP: '::'.
-2022-05-13 11:59:14 0 [Note] InnoDB: Buffer pool(s) load completed at 220513 11:59:14
-2022-05-13 11:59:14 0 [Note] Reading of all Master_info entries succeeded
-2022-05-13 11:59:14 0 [Note] Added new Master_info '' to hash table
-2022-05-13 11:59:14 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
-Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
-2022-05-13 20:35:18 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
-2022-05-13 20:35:18 0 [Note] Event Scheduler: Purging the queue. 0 events
-2022-05-13 20:35:18 0 [Note] InnoDB: FTS optimize thread exiting.
-2022-05-13 20:35:18 0 [Note] InnoDB: Starting shutdown...
-2022-05-13 20:35:18 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
-2022-05-13 20:35:18 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
-2022-05-13 20:35:18 0 [Note] InnoDB: Buffer pool(s) dump completed at 220513 20:35:18
-2022-05-13 20:35:19 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-13 20:35:19 0 [Note] InnoDB: Shutdown completed; log sequence number 2033588; transaction id 3696
-2022-05-13 20:35:19 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
-
-2022-05-14 13:50:21 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-14 13:50:21 0 [Note] InnoDB: Uses event mutexes
-2022-05-14 13:50:21 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-14 13:50:22 0 [Note] InnoDB: Number of pools: 1
-2022-05-14 13:50:22 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-14 13:50:22 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-14 13:50:22 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-14 13:50:22 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-14 13:50:22 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-14 13:50:22 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-14 13:50:22 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-14 13:50:22 0 [Note] InnoDB: Waiting for purge to start
-2022-05-14 13:50:23 0 [Note] InnoDB: 10.4.24 started; log sequence number 2033588; transaction id 3697
-2022-05-14 13:50:23 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-14 13:50:23 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-14 13:50:23 0 [Note] Server socket created on IP: '::'.
-2022-05-14 13:50:23 0 [Note] InnoDB: Buffer pool(s) load completed at 220514 13:50:23
-2022-05-14 13:50:23 0 [Note] Reading of all Master_info entries succeeded
-2022-05-14 13:50:23 0 [Note] Added new Master_info '' to hash table
-2022-05-14 13:50:23 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
-Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
-2022-05-14 18:10:13 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
-2022-05-14 18:10:13 0 [Note] Event Scheduler: Purging the queue. 0 events
-2022-05-14 18:10:13 0 [Note] InnoDB: FTS optimize thread exiting.
-2022-05-14 18:10:13 0 [Note] InnoDB: Starting shutdown...
-2022-05-14 18:10:13 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
-2022-05-14 18:10:13 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
-2022-05-14 18:10:13 0 [Note] InnoDB: Buffer pool(s) dump completed at 220514 18:10:13
-2022-05-14 18:10:14 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-14 18:10:14 0 [Note] InnoDB: Shutdown completed; log sequence number 2033597; transaction id 3698
-2022-05-14 18:10:14 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
-
-2022-05-14 21:04:19 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2022-05-14 21:04:19 0 [Note] InnoDB: Uses event mutexes
-2022-05-14 21:04:19 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
-2022-05-14 21:04:19 0 [Note] InnoDB: Number of pools: 1
-2022-05-14 21:04:19 0 [Note] InnoDB: Using SSE2 crc32 instructions
-2022-05-14 21:04:19 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
-2022-05-14 21:04:19 0 [Note] InnoDB: Completed initialization of buffer pool
-2022-05-14 21:04:20 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
-2022-05-14 21:04:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
-2022-05-14 21:04:20 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
-2022-05-14 21:04:20 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
-2022-05-14 21:04:20 0 [Note] InnoDB: Waiting for purge to start
-2022-05-14 21:04:20 0 [Note] InnoDB: 10.4.24 started; log sequence number 2033597; transaction id 3697
-2022-05-14 21:04:20 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
-2022-05-14 21:04:20 0 [Note] Plugin 'FEEDBACK' is disabled.
-2022-05-14 21:04:20 0 [Note] Server socket created on IP: '::'.
-2022-05-14 21:04:20 0 [Note] InnoDB: Buffer pool(s) load completed at 220514 21:04:20
-2022-05-14 21:04:20 0 [Note] Reading of all Master_info entries succeeded
-2022-05-14 21:04:20 0 [Note] Added new Master_info '' to hash table
-2022-05-14 21:04:20 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
-Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
-2022-05-14 22:25:58 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
-2022-05-14 22:25:58 0 [Note] Event Scheduler: Purging the queue. 0 events
-2022-05-14 22:25:58 0 [Note] InnoDB: FTS optimize thread exiting.
-2022-05-14 22:25:58 0 [Note] InnoDB: Starting shutdown...
-2022-05-14 22:25:58 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
-2022-05-14 22:25:58 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
-2022-05-14 22:25:58 0 [Note] InnoDB: Buffer pool(s) dump completed at 220514 22:25:58
-2022-05-14 22:25:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
-2022-05-14 22:25:58 0 [Note] InnoDB: Shutdown completed; log sequence number 2033606; transaction id 3701
-2022-05-14 22:25:58 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
-
